@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/882dc54fea.js" crossorigin="anonymous"></script>
+    <script defer src="script.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Click Your Health</title>
+</head>
+<body>
+    <div id="progressbar"></div>
+    <div id="scrollPath"></div>
+    <header class="nav-bar">
+        <img src="logo.png" alt="" class="img logo">
+        <input type="checkbox" id="checkbox">
+        <ul id="navbar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#typesOfProblems">Types of Problems</a></li>
+            <li><a href="notification.html">notification</a></li>
+        </ul>
+        <label for="checkbox" class="open-menu"><i class="bi bi-list"></i></label>
+        <label for="checkbox" class="close-menu"><i class="bi bi-x-lg"></i></label>
+    </header>
+    <div id="toastBox"></div>
+    <section class="section1">
+        <div class="section1-background-img"></div>
+        <div class="section1-text hidden">
+            <h1 class="section1-h1 hidden">LOVE YOURSELF</h1>
+            <p class="section1-p hidden">Take care of yourself, in a right way</p>
+            <a href="#ourconcern"><button class="section1-btn hidden" id="play">view more</button></a>
+        </div>
+    </section>
+    <section class="section2" id="ourconcern">
+        <img src="ourconcern.png" class="ourconcern-img hidden">
+        <h1 class="ourconcern hidden">Our Concern</h1>
+        <p class="ourconcern-info hidden">A lot of people sit infront of the computer for a long time.<br> Maybe you think that it is normal, but it actually can
+            cause lots of problems such as<br> eye irritation, blurred vision, Backaches, Neck aches <br> and forgot to drink water.  So we've provided some solution for you!
+        </p>
+    </section>
+    <section class="section3" id="typesOfProblems">
+        <h1 class="section3-h1">Types of Problems</h1>
+        <div class="wrapper">
+            <div class="card card1  hidden">
+                <img src="card1-img.jpeg" class="card-img">
+                <div class="card-body">
+                    <h1 class="card-title">Forget Rest Your Eyes</h1>
+                    <p class="card-sub-title">Don't know how and when to rest your eyes?</p>
+                    <p class="card-info">Click the button below to view more</p>
+                    <a href="#eyes"><button class="card-btn">View More</button></a>
+                </div>
+            </div>
+            <div class="card card2">
+                <img src="card2-img.jpeg" class="card-img">
+                <div class="card-body">
+                    <h1 class="card-title">Sitting for too long</h1>
+                    <p class="card-sub-title">Do you know how harmful is too much sitting?</p>
+                    <p class="card-info">Click the button below to view more</p>
+                    <a href="#stretch"><button class="card-btn">View More</button></a>
+                </div>
+            </div>
+            <div class="card card3">
+                <img src="card3-img.jpeg" class="card-img">
+                <div class="card-body">
+                    <h1 class="card-title">Forget To Drink Water</h1>
+                    <p class="card-sub-title">Always forgot to drink water?</p>
+                    <p class="card-info">Click the button below to view more</p>
+                    <a href="#drinks"><button class="card-btn">View More</button></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section4">
+        <div class="section4-info hidden" id="eyes">
+            <img class="section4-img s4-img1" src="section4-eyes.jpg">
+            <div class="s4-info s4-info1">
+                <h1 class="section4-h1">Rest Your Eyes</h1>
+                <p class="section4-p">Throughout the day, give your eyes a break by looking away from <br> 
+                    your monitor. Try the 20-20-20 rule: Every 20 minutes, look at something 20 feet <br> 
+                    away for at least 20 seconds.</p>
+            </div>
+        </div>
+        <hr class="hr1">
+        <div class="section4-info hidden" id="stretch">
+            <img class="section4-img s4-img2" src="section4-standup.png">
+            <div class="s4-info s4-info2">
+                <h1 class="section4-h1">Stand Up</h1>
+                <p class="section4-p">Recommends sitting at your computer, and “about every 20-30 <br>
+                     minutes take a posture break and stand and move for a couple of minutes.”</p>
+            </div>
+            
+        </div>
+        <hr class="hr2">
+        <div class="section4-info hidden" id="drinks">
+            <img class="section4-img s4-img3" src="section4-drinkwater.png">
+            <div class="s4-info s4-info3">
+                <h1 class="section4-h1">Drinking More Water</h1>
+                <p class="section4-p">For healthy individuals, the average daily water for men <br>
+                 is about 15.5 cups and for women about 11.5 cups. That might mean you need <br>
+                  only four to six cups of plain water, depending on other fluid sources such as <br>
+                   coffee, tea, juice, fruits, and vegetables.</p>
+            </div>
+        </div>
+    </section>
+    
+</body>
+</html>
